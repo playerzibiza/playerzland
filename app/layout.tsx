@@ -2,7 +2,7 @@ export const metadata = {
   title: 'Playerz Ibiza',
   description: 'Villas. Barcos. Tickets. Moda. Una forma de vida.'
 };
-
+import '../styles/globals.css';
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
